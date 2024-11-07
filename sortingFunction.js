@@ -42,8 +42,8 @@ console.log('Sortering kort stigende: ', arr1.sort(kortStigende));
 console.log('Sortering kort synkende: ', arr1.sort(kortSynkende));
 
 // Eksplisitt sortering basert på en forhåndsdefinert rekkefølge
-const inputArray = ["a", "b", "c", "d", "e", "f", "n", "y", "g"];
-const orderArray = ["a", "n", "d", "y"];
+const inputArray = ["a", "b", "c", "d", "e", "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "i"];
+const orderArray = ["p", "a", "t", "r", "i", "k"];
 
 const eksplisittSortering = (array, order) => {
     const eksplisittSammenligning = (a, b) => {
